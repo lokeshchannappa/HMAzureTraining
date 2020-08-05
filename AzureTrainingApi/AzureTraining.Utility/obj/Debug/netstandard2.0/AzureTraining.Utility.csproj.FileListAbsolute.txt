@@ -1,0 +1,8 @@
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\bin\Debug\netstandard2.0\AzureTraining.Utility.deps.json
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\bin\Debug\netstandard2.0\AzureTraining.Utility.dll
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\obj\Debug\netstandard2.0\AzureTraining.Utility.csprojAssemblyReference.cache
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\obj\Debug\netstandard2.0\AzureTraining.Utility.AssemblyInfoInputs.cache
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\obj\Debug\netstandard2.0\AzureTraining.Utility.AssemblyInfo.cs
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\bin\Debug\netstandard2.0\AzureTraining.Utility.pdb
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\obj\Debug\netstandard2.0\AzureTraining.Utility.dll
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTraining.Utility\obj\Debug\netstandard2.0\AzureTraining.Utility.pdb
