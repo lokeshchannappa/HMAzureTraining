@@ -15,4 +15,6 @@ C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Debug\netcoreapp2
 C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\bin\Debug\netcoreapp2.2\AzureTrainingApi.pdb
 C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Debug\netcoreapp2.2\AzureTrainingApi.dll
 C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Debug\netcoreapp2.2\AzureTrainingApi.pdb
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\bin\Debug\netcoreapp2.2\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\bin\Debug\netcoreapp2.2\Cosmos.CRTCompat.dll
 C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Debug\netcoreapp2.2\AzureTrainingApi.csproj.CoreCompileInputs.cache
