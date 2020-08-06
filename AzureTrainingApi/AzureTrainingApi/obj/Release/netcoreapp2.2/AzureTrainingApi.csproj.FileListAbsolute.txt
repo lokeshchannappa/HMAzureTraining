@@ -16,3 +16,5 @@ C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Release\netcoreap
 C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Release\netcoreapp2.2\AzureTrainingApi.dll
 C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Release\netcoreapp2.2\AzureTrainingApi.pdb
 C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\obj\Release\netcoreapp2.2\AzureTrainingApi.genruntimeconfig.cache
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\bin\Release\netcoreapp2.2\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Lokesh\Azure Training\AzureTrainingApi\AzureTrainingApi\bin\Release\netcoreapp2.2\Cosmos.CRTCompat.dll

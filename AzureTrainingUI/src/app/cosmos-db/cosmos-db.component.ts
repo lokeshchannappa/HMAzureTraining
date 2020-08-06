@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-cosmos-db',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CosmosDBComponent implements OnInit {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+  public items: any = {};
 
   ngOnInit(): void {
+    this.http.get(environment.apiBaseUrl + 'item')
+      .subscribe(data => {
+        this.items = data;
+      });
   }
-
 }
