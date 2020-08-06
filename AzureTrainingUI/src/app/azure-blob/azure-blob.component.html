@@ -1,0 +1,9 @@
+<app-upload (onUploadFinished)="uploadFinished($event)"></app-upload>
+  <table>
+    <tr>
+      <th>File Name</th>
+    </tr>
+    <tr *ngFor="let file of response">
+      <td><a href={{file.url}} target="_blank" alt="Click to download">{{file.name}}</a></td>
+    </tr>
+  </table>

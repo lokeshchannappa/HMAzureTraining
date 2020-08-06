@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
 table {
   border-collapse: collapse;
   width: 100%;
@@ -54,5 +60,13 @@ button, input[type=button], input[type=submit], input[type=reset] {
   background-color: #ddd;
   color: black;
 }
+.topnav .active {
+  background-color: #ddd;
+  color: black;
+}
 
 .cp-text{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+footer{
+  border-top: solid 1px rgb(223, 223, 223);
+  background-color: rgb(253, 253, 253);
+}
