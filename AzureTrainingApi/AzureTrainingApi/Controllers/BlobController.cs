@@ -28,10 +28,9 @@ namespace AzureTrainingApi.Controllers
                 if (file.Length > 0)
                 {
                     var fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
-                    using (var ms = new MemoryStream())
+                    using (var fileStram = file.OpenReadStream())
                     {
-                        file.CopyTo(ms);
-                        await blob.SaveAsync(ms, fileName);
+                        await blob.SaveAsync(fileStram, fileName);
                     }
                     var list = await blob.GetAllFiles();
                     return Ok(list);
