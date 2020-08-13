@@ -70,3 +70,7 @@ footer{
   border-top: solid 1px rgb(223, 223, 223);
   background-color: rgb(253, 253, 253);
 }
+a{
+  cursor: pointer;
+  color: blue;
+}

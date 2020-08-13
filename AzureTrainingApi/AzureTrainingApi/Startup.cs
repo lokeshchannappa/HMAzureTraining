@@ -41,6 +41,10 @@ namespace AzureTrainingApi
             services.AddSwaggerGen(x => x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Test API", Version = "v1" }));
             services.AddCors(x => x.AddPolicy("CORS", options => options.WithOrigins("http://localhost:4200", "https://localhost:4200", "https://hmazuretrainingapi.azurewebsites.net", "http://hmazuretrainingapi.azurewebsites.net").AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials()));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddDistributedRedisCache(options => {
+                options.Configuration = Configuration.GetConnectionString("RedisConnection");
+                //options.InstanceName = "trainingrediscache"; // Your DNS Name  
+            });
         }
         /// <summary>
         /// Creates a Cosmos DB database and a container with the specified partition key. 

@@ -1,0 +1,22 @@
+<div>
+  <h2>Key & Value from Redis Cache</h2>
+  <div>
+  <input type="text"  [(ngModel)]="newKey.key" required placeholder="Redis Key"/>
+  <input type="text"  [(ngModel)]="newKey.value" required placeholder="Redis Value"/>
+  <input type="button" value="Add / Edit" (click)="AddNewKeyValue()" />
+</div>
+  <table>
+    <tr>
+      <th>Key</th>
+      <th>Value</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+    <tr *ngFor="let item of response">
+      <td>{{item.key}}</td>
+      <td>{{item.value}}</td>
+      <td><a (click)="EditByKey(item)">Edit</a></td>
+      <td><a (click)="DeleteByKey(item.key)">Delete</a></td>
+    </tr>
+  </table>
+</div>

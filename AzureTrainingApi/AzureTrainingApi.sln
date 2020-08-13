@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTrainingApi", "AzureTrainingApi\AzureTrainingApi.csproj", "{B4815561-7D2C-4688-ABA8-F90DE8986459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTrainingApi", "AzureTrainingApi\AzureTrainingApi.csproj", "{B4815561-7D2C-4688-ABA8-F90DE8986459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTrainingFunctionApp", "AzureTrainingFunctionApp\AzureTrainingFunctionApp.csproj", "{7DE828D5-D336-4B84-9348-2804AAA2689D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B4815561-7D2C-4688-ABA8-F90DE8986459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4815561-7D2C-4688-ABA8-F90DE8986459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4815561-7D2C-4688-ABA8-F90DE8986459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE828D5-D336-4B84-9348-2804AAA2689D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE828D5-D336-4B84-9348-2804AAA2689D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE828D5-D336-4B84-9348-2804AAA2689D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE828D5-D336-4B84-9348-2804AAA2689D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
